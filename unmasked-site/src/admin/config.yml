@@ -2,7 +2,7 @@ site_url: https://unmaskedstandard.org
 
 backend:
   name: github
-  repo: RetroRedhead/unmasked-site
+  repo:RetroRedhead/unmasked-site
   branch: main
 
 media_folder: "src/static/images"
