@@ -1,0 +1,161 @@
+site_url: https://unmaskedstandard.org
+
+backend:
+  name: github
+  repo: YOUR-GITHUB-USERNAME/unmasked-site
+  branch: main
+
+media_folder: "src/static/images"
+public_folder: "/images"
+
+collections:
+  - name: settings
+    label: "Site settings"
+    files:
+      - name: site
+        label: "Site basics"
+        file: "src/_data/site.json"
+        fields:
+          - { name: title, label: "Site name", widget: string }
+          - { name: tagline, label: "Tagline under the name", widget: string }
+          - { name: description, label: "Google search description", widget: text }
+          - { name: url, label: "Site address", widget: string }
+          - { name: footerLine, label: "Footer line", widget: string }
+          - { name: legalLine, label: "Legal disclaimer", widget: string }
+          - { name: copyright, label: "Copyright line", widget: string }
+
+  - name: homepage
+    label: "Homepage"
+    preview_path: ""
+    files:
+      - name: home
+        label: "Homepage content"
+        file: "src/_data/home.json"
+        fields:
+          - { name: eyebrow, label: "Small line above the headline", widget: string }
+          - { name: heading, label: "Headline", widget: string }
+          - { name: headingEmphasis, label: "Last word, shown in plum italic", widget: string }
+          - { name: lede, label: "Opening paragraph", widget: text }
+
+          - name: doors
+            label: "The two doors"
+            widget: list
+            fields:
+              - { name: key, label: "Path (stylist or owner, do not change)", widget: string }
+              - { name: tag, label: "Small tag", widget: string }
+              - { name: title, label: "Door heading", widget: string }
+              - { name: body, label: "Door text", widget: text }
+              - { name: cta, label: "Link text", widget: string }
+
+          - name: proof
+            label: "Proof strip"
+            widget: list
+            fields:
+              - { name: figure, label: "Number", widget: string }
+              - { name: label, label: "What it means", widget: string }
+
+          - { name: standardEyebrow, label: "Section 2 eyebrow", widget: string }
+          - { name: standardHeading, label: "Section 2 heading", widget: string }
+          - { name: standardIntro, label: "Section 2 intro", widget: text }
+
+          - name: pillars
+            label: "The three principles"
+            widget: list
+            fields:
+              - { name: title, label: "Principle", widget: string }
+              - { name: body, label: "Explanation", widget: text }
+
+          - { name: startEyebrow, label: "Pricing eyebrow", widget: string }
+          - { name: startHeading, label: "Pricing heading", widget: string }
+          - { name: startIntro, label: "Pricing intro", widget: text }
+
+          - name: paths
+            label: "Pricing by path"
+            widget: object
+            fields:
+              - name: stylist
+                label: "Behind the chair"
+                widget: object
+                fields:
+                  - { name: switchLabel, label: "Tab label", widget: string }
+                  - name: steps
+                    label: "Offers"
+                    widget: list
+                    fields:
+                      - { name: price, label: "Price", widget: string }
+                      - { name: priceNote, label: "Small note beside price", widget: string, required: false }
+                      - { name: title, label: "Offer name", widget: string }
+                      - { name: body, label: "Description", widget: text }
+                      - { name: bullets, label: "Bullet points", widget: list, field: { name: item, label: "Point", widget: string } }
+                      - { name: ctaLabel, label: "Button text", widget: string }
+                      - { name: ctaUrl, label: "ThriveCart checkout link", widget: string }
+                      - { name: featured, label: "Highlight this one", widget: boolean, default: false }
+                  - { name: note, label: "Small print under the offers", widget: text }
+              - name: owner
+                label: "Running a space"
+                widget: object
+                fields:
+                  - { name: switchLabel, label: "Tab label", widget: string }
+                  - name: steps
+                    label: "Offers"
+                    widget: list
+                    fields:
+                      - { name: price, label: "Price", widget: string }
+                      - { name: priceNote, label: "Small note beside price", widget: string, required: false }
+                      - { name: title, label: "Offer name", widget: string }
+                      - { name: body, label: "Description", widget: text }
+                      - { name: bullets, label: "Bullet points", widget: list, field: { name: item, label: "Point", widget: string } }
+                      - { name: ctaLabel, label: "Button text", widget: string }
+                      - { name: ctaUrl, label: "ThriveCart checkout link", widget: string }
+                      - { name: featured, label: "Highlight this one", widget: boolean, default: false }
+                  - { name: note, label: "Small print under the offers", widget: text }
+
+          - { name: captureEyebrow, label: "Signup eyebrow", widget: string }
+          - { name: captureHeading, label: "Signup heading", widget: string }
+          - { name: captureBody, label: "Signup text", widget: text }
+          - { name: captureAction, label: "Email tool form URL", widget: string }
+          - { name: captureButton, label: "Signup button text", widget: string }
+          - { name: captureFineprint, label: "Signup small print", widget: string }
+
+          - { name: founderQuote, label: "Founder quote", widget: string }
+          - { name: founderBody, label: "Founder note (blank line between paragraphs)", widget: text }
+          - { name: founderAttrib, label: "Signature line", widget: string }
+
+  - name: quiz
+    label: "Sensory Score quiz"
+    preview_path: "quiz"
+    files:
+      - name: quiz
+        label: "Quiz content"
+        file: "src/_data/quiz.json"
+        fields:
+          - { name: eyebrow, label: "Small line above the heading", widget: string }
+          - { name: heading, label: "Page heading", widget: string }
+          - { name: intro, label: "Intro paragraph", widget: text }
+          - { name: instruction, label: "Instruction above question one", widget: string }
+          - name: questions
+            label: "Questions"
+            widget: list
+            fields:
+              - { name: prompt, label: "Question", widget: text }
+              - name: options
+                label: "Answers"
+                widget: list
+                fields:
+                  - { name: text, label: "Answer text", widget: text }
+                  - { name: score, label: "Points (0, 1 or 2)", widget: number, value_type: int, min: 0, max: 2 }
+          - name: bands
+            label: "Result bands"
+            widget: list
+            fields:
+              - { name: key, label: "Tag sent to your email tool", widget: string }
+              - { name: max, label: "Highest score in this band", widget: number, value_type: int }
+              - { name: label, label: "Band name", widget: string }
+              - { name: headline, label: "Result headline", widget: string }
+              - { name: body, label: "Result explanation", widget: text }
+              - { name: next, label: "What to do next", widget: text }
+          - { name: captureHeading, label: "Signup heading", widget: string }
+          - { name: captureBody, label: "Signup text", widget: text }
+          - { name: captureAction, label: "Email tool form URL", widget: string }
+          - { name: captureButton, label: "Signup button text", widget: string }
+          - { name: captureFineprint, label: "Signup small print", widget: string }

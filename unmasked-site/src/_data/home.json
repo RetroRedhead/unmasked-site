@@ -1,0 +1,130 @@
+{
+  "eyebrow": "Neuro-affirming training for the personal service industry",
+  "heading": "Your quietest guest is the one you are about to",
+  "headingEmphasis": "lose",
+  "lede": "They went still in the chair, said everything was lovely, paid in full and never booked again. It never showed up in your numbers as a problem, because nobody writes down the client who was polite. The Unmasked Standard is the operating system that stops that leak.",
+  "doors": [
+    {
+      "key": "stylist",
+      "tag": "Start here",
+      "title": "I work behind the chair",
+      "body": "Stylist, esthetician, RMT, artist, solo or suite. You want the protocols, the scripts and a certification that means something.",
+      "cta": "See the stylist path"
+    },
+    {
+      "key": "owner",
+      "tag": "Start here",
+      "title": "I run the space",
+      "body": "Salon, spa, studio or group. You want the retention math, the floor standard and a way to train the whole team on it.",
+      "cta": "See the numbers"
+    }
+  ],
+  "proof": [
+    { "figure": "30%", "label": "revenue growth over 2.5 years, Retro Redhead, London Ontario" },
+    { "figure": "10", "label": "modules, quiz-gated, ends in certification" },
+    { "figure": "5", "label": "tracks: hair, spa, RMT, tattoo, independent" }
+  ],
+  "standardEyebrow": "What the standard actually is",
+  "standardHeading": "Not a soft skills workshop. A floor protocol.",
+  "standardIntro": "Every rule in this framework exists because a nervous system does something predictable when it is startled, crowded or asked to perform. You are not learning to be nicer. You are learning to stop producing the signal that makes a guest shut down.",
+  "pillars": [
+    {
+      "title": "No performance required",
+      "body": "Guests are released from acting happy and making conversation while their brain is busy processing everything else in the room. Silence is a listed service, not an awkward gap."
+    },
+    {
+      "title": "Nothing happens without warning",
+      "body": "Every chair movement, every tool, every hand. Announced three seconds before it happens, in words we give you, so surprise never becomes startle."
+    },
+    {
+      "title": "Recovery without apology",
+      "body": "A sensory spike is a neutral event with a written protocol attached, not an incident anyone has to feel bad about afterwards. Nobody manages it by improvising."
+    }
+  ],
+  "startEyebrow": "Where to start",
+  "startHeading": "Three ways in, and none of them start at the top.",
+  "startIntro": "Take the free audit first. If it tells you something you did not know about your own floor, the rest will too.",
+  "paths": {
+    "stylist": {
+      "switchLabel": "Behind the chair",
+      "steps": [
+        {
+          "price": "Free",
+          "priceNote": "",
+          "title": "The Sensory Leak Audit",
+          "body": "Twelve checks you run at your own station in under an hour. Most people find three things they cannot unsee.",
+          "bullets": ["The glare check", "The acoustic jumpscare list", "The forced conversation tracker"],
+          "ctaLabel": "Take the Sensory Score",
+          "ctaUrl": "/quiz/",
+          "featured": false
+        },
+        {
+          "price": "$47",
+          "priceNote": "one time",
+          "title": "The Unmasked Diagnostic Kit",
+          "body": "The intake form that runs the whole system, already built. Copy it, rename it, use it Monday.",
+          "bullets": ["Five-section form with the branching logic wired", "The Master Stylist Brief template", "Confirmation email script"],
+          "ctaLabel": "Get the kit",
+          "ctaUrl": "#",
+          "featured": false
+        },
+        {
+          "price": "$497",
+          "priceNote": "or 3 x $179",
+          "title": "Full Certification",
+          "body": "All ten modules, your industry track, the script library and a certificate you can hang and verify.",
+          "bullets": ["10 quiz-gated modules, roughly 14 hours", "Every protocol, script and rescue sequence", "Listing in the certified directory"],
+          "ctaLabel": "Enrol now",
+          "ctaUrl": "#",
+          "featured": true
+        }
+      ],
+      "note": "Single modules are available on their own at $97 if you want to test one section first. Anything you buy is credited in full toward the certification."
+    },
+    "owner": {
+      "switchLabel": "Running a space",
+      "steps": [
+        {
+          "price": "Free",
+          "priceNote": "",
+          "title": "The Sensory Leak Audit",
+          "body": "Walk your floor with twelve checks and put a number on what the room is costing you in guests who never rebook.",
+          "bullets": ["The glare check", "The acoustic jumpscare list", "The forced conversation tracker"],
+          "ctaLabel": "Take the Sensory Score",
+          "ctaUrl": "/quiz/",
+          "featured": false
+        },
+        {
+          "price": "$47",
+          "priceNote": "one time",
+          "title": "The Unmasked Diagnostic Kit",
+          "body": "The intake form your whole team runs off. One build, every chair, no more guessing what a guest needs.",
+          "bullets": ["Five-section form with the branching logic wired", "The Master Stylist Brief template", "Confirmation email script"],
+          "ctaLabel": "Get the kit",
+          "ctaUrl": "#",
+          "featured": false
+        },
+        {
+          "price": "$497",
+          "priceNote": "per seat, less at volume",
+          "title": "Certify the Team",
+          "body": "Every person on your floor working from one protocol, with an admin view of who has finished what.",
+          "bullets": ["Team dashboard and completion tracking", "Industry track per role", "Your space listed as certified"],
+          "ctaLabel": "Apply for team pricing",
+          "ctaUrl": "#",
+          "featured": true
+        }
+      ],
+      "note": "Teams of five or more are quoted per seat, and groups of twenty-five or more go through an application so we can scope the floor first."
+    }
+  },
+  "captureEyebrow": "Free, no call, no pitch on the thank-you page",
+  "captureHeading": "Run the audit on your own floor first.",
+  "captureBody": "Sit in your own service chair for ten minutes during a busy hour and answer twelve questions. You will get the PDF straight away, plus the client-facing Sensory Safety Expectations sheet you can post on your booking page.",
+  "captureAction": "#",
+  "captureButton": "Send me the audit",
+  "captureFineprint": "One email with the download, then roughly one a week. Leave whenever you want.",
+  "founderQuote": "Your calm is the most expensive service you provide.",
+  "founderBody": "I grew up in chaos, and for a long time the only language I knew was hustle, because hustle was what kept me alive. I built Retro Redhead so no other stylist would have to choose between feeding their kid and replacing their own worn-out shoes.\n\nThis is not a soft skills guide. It is an operations manual, grounded in biology, written in plain language and tested on a real floor with real guests.",
+  "founderAttrib": "Samantha, Founder, Retro Redhead"
+}
