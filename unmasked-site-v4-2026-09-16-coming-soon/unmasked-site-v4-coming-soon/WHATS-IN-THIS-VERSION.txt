@@ -1,0 +1,28 @@
+UNMASKED STANDARD WEBSITE
+Version 4  ·  16 September 2026  ·  "Coming soon lock"
+
+WHAT THIS VERSION DOES
+  - Puts a coming-soon holding page at the front door
+  - Moves your full homepage to /preview/ so you can keep working on it
+  - Adds the Sensory Score quiz at /quiz/
+  - Keeps both hidden from Google until you are ready
+  - Includes YOUR copy edits from the admin screen (merged 16 Sep)
+  - Fixes the repo line in config.yml
+
+WHERE EVERYTHING LIVES ONCE UPLOADED
+  unmaskedstandard.org           Holding page, what the public sees
+  unmaskedstandard.org/preview/  Your full homepage, hidden
+  unmaskedstandard.org/quiz/     Sensory Score quiz, hidden
+  unmaskedstandard.org/admin/    Where you edit everything
+
+STILL NOT DONE
+  - The email box has nowhere to send addresses yet.
+    Needs a Google Form URL or an email tool.
+  - ThriveCart checkout links are all still "#"
+  - The Sensory Leak Audit PDF does not exist yet
+
+VERSION HISTORY
+  v4  16 Sep  Coming-soon lock, copy edits merged
+  v3  16 Sep  Preview links in admin
+  v2  16 Sep  Sensory Score quiz added
+  v1  15 Sep  First build, homepage and admin
