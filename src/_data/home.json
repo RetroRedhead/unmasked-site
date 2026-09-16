@@ -1,5 +1,5 @@
 {
-  "eyebrow": "Neuro-affirming training for the personal service industry",
+  "eyebrow": "Neuro affirming training for the personal service industry",
   "heading": "Your quietest guest is the one you are about to",
   "headingEmphasis": "lose",
   "lede": "They went still in the chair, said everything was lovely, paid in full and never booked again. It never showed up in your numbers as a problem, because nobody writes down the client who was polite. The Unmasked Standard is the operating system that stops that leak.",
@@ -20,9 +20,18 @@
     }
   ],
   "proof": [
-    { "figure": "30%", "label": "revenue growth over 2.5 years, Retro Redhead, London Ontario" },
-    { "figure": "10", "label": "modules, quiz-gated, ends in certification" },
-    { "figure": "5", "label": "tracks: hair, spa, RMT, tattoo, independent" }
+    {
+      "figure": "30%",
+      "label": "revenue growth over 2.5 years, Retro Redhead, London Ontario"
+    },
+    {
+      "figure": "10",
+      "label": "modules, quiz-gated, ends in certification"
+    },
+    {
+      "figure": "5",
+      "label": "tracks: hair, spa, RMT, tattoo, independent"
+    }
   ],
   "standardEyebrow": "What the standard actually is",
   "standardHeading": "Not a soft skills workshop. A floor protocol.",
@@ -53,7 +62,11 @@
           "priceNote": "",
           "title": "The Sensory Leak Audit",
           "body": "Twelve checks you run at your own station in under an hour. Most people find three things they cannot unsee.",
-          "bullets": ["The glare check", "The acoustic jumpscare list", "The forced conversation tracker"],
+          "bullets": [
+            "The glare check",
+            "The acoustic jumpscare list",
+            "The forced conversation tracker"
+          ],
           "ctaLabel": "Get the audit",
           "ctaUrl": "#audit",
           "featured": false
@@ -63,7 +76,11 @@
           "priceNote": "one time",
           "title": "The Unmasked Diagnostic Kit",
           "body": "The intake form that runs the whole system, already built. Copy it, rename it, use it Monday.",
-          "bullets": ["Five-section form with the branching logic wired", "The Master Stylist Brief template", "Confirmation email script"],
+          "bullets": [
+            "Five-section form with the branching logic wired",
+            "The Master Stylist Brief template",
+            "Confirmation email script"
+          ],
           "ctaLabel": "Get the kit",
           "ctaUrl": "#",
           "featured": false
@@ -73,7 +90,11 @@
           "priceNote": "or 3 x $179",
           "title": "Full Certification",
           "body": "All ten modules, your industry track, the script library and a certificate you can hang and verify.",
-          "bullets": ["10 quiz-gated modules, roughly 14 hours", "Every protocol, script and rescue sequence", "Listing in the certified directory"],
+          "bullets": [
+            "10 quiz-gated modules, roughly 14 hours",
+            "Every protocol, script and rescue sequence",
+            "Listing in the certified directory"
+          ],
           "ctaLabel": "Enrol now",
           "ctaUrl": "#",
           "featured": true
@@ -89,7 +110,11 @@
           "priceNote": "",
           "title": "The Sensory Leak Audit",
           "body": "Walk your floor with twelve checks and put a number on what the room is costing you in guests who never rebook.",
-          "bullets": ["The glare check", "The acoustic jumpscare list", "The forced conversation tracker"],
+          "bullets": [
+            "The glare check",
+            "The acoustic jumpscare list",
+            "The forced conversation tracker"
+          ],
           "ctaLabel": "Get the audit",
           "ctaUrl": "#audit",
           "featured": false
@@ -99,7 +124,11 @@
           "priceNote": "one time",
           "title": "The Unmasked Diagnostic Kit",
           "body": "The intake form your whole team runs off. One build, every chair, no more guessing what a guest needs.",
-          "bullets": ["Five-section form with the branching logic wired", "The Master Stylist Brief template", "Confirmation email script"],
+          "bullets": [
+            "Five-section form with the branching logic wired",
+            "The Master Stylist Brief template",
+            "Confirmation email script"
+          ],
           "ctaLabel": "Get the kit",
           "ctaUrl": "#",
           "featured": false
@@ -109,7 +138,11 @@
           "priceNote": "per seat, less at volume",
           "title": "Certify the Team",
           "body": "Every person on your floor working from one protocol, with an admin view of who has finished what.",
-          "bullets": ["Team dashboard and completion tracking", "Industry track per role", "Your space listed as certified"],
+          "bullets": [
+            "Team dashboard and completion tracking",
+            "Industry track per role",
+            "Your space listed as certified"
+          ],
           "ctaLabel": "Apply for team pricing",
           "ctaUrl": "#",
           "featured": true
