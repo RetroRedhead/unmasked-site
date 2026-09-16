@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{% if pageTitle %}{{ pageTitle }}{% else %}{{ site.title }} | Neuro-affirming training for the personal service industry{% endif %}</title>
 <meta name="description" content="{{ site.description }}">
+{% if noindex %}<meta name="robots" content="noindex,nofollow">{% endif %}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -12,6 +13,7 @@
 </head>
 <body data-volume="standard" data-path="stylist">
 
+{% if not bare %}
 <nav class="nav">
   <div class="nav-in">
     <a class="brand" href="#top">{{ site.title }}<span>{{ site.tagline }}</span></a>
@@ -30,9 +32,11 @@
     </div>
   </div>
 </nav>
+{% endif %}
 
 {{ content | safe }}
 
+{% if not bare %}
 <footer id="directory">
   <div class="wrap">
     <div class="foot-grid">
@@ -71,6 +75,7 @@
     </div>
   </div>
 </footer>
+{% endif %}
 
 <script src="/css/main.js"></script>
 </body>

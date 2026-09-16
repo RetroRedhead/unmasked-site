@@ -24,9 +24,29 @@ collections:
           - { name: legalLine, label: "Legal disclaimer", widget: string }
           - { name: copyright, label: "Copyright line", widget: string }
 
-  - name: homepage
-    label: "Homepage"
+  - name: soon
+    label: "Coming soon page"
     preview_path: ""
+    files:
+      - name: soon
+        label: "Holding page content"
+        file: "src/_data/soon.json"
+        fields:
+          - { name: eyebrow, label: "Small line at the top", widget: string }
+          - { name: heading, label: "Headline", widget: text }
+          - { name: body, label: "Main paragraph", widget: text }
+          - { name: promise, label: "What they get for signing up", widget: text }
+          - { name: captureAction, label: "Form URL (Google Form or email tool)", widget: string }
+          - { name: captureButton, label: "Button text", widget: string }
+          - { name: captureFineprint, label: "Small print under the form", widget: string }
+          - { name: successMessage, label: "Thank-you message after signup", widget: string }
+          - { name: secondaryLabel, label: "Optional extra link text (leave blank to hide)", widget: string, required: false }
+          - { name: secondaryUrl, label: "Optional extra link URL", widget: string, required: false }
+          - { name: signoff, label: "Sign-off line", widget: string }
+
+  - name: homepage
+    label: "Homepage (hidden, at /preview/)"
+    preview_path: "preview"
     files:
       - name: home
         label: "Homepage content"
