@@ -2,48 +2,48 @@
   "eyebrow": "Neuro affirming training for the personal service industry",
   "heading": "Your quietest guest is the one you are about to",
   "headingEmphasis": "lose",
-  "lede": "They went still in the chair, said everything was lovely, paid in full and never booked again. It never showed up in your numbers as a problem, because nobody writes down the client who was polite. The Unmasked Standard is the operating system that stops that leak.",
+  "lede": "They went still in the chair, said everything was lovely, paid in full even added a tip.  Than you  never saw them again. It never showed up in your numbers as a problem because, nobody writes down the client who was polite. The Unmasked Standard is the operating system that stops that leak.",
   "doors": [
     {
       "key": "stylist",
       "tag": "Start here",
       "title": "I work behind the chair",
-      "body": "Stylist, esthetician, RMT, artist, solo or suite. You want the protocols, the scripts and a certification that means something.",
+      "body": "Stylist, esthetician, RMT, tattoo artist, solo or suite. You want the protocols, the scripts and training that actually means something.",
       "cta": "See the stylist path"
     },
     {
       "key": "owner",
       "tag": "Start here",
       "title": "I run the space",
-      "body": "Salon, spa, studio or group. You want the retention math, the floor standard and a way to train the whole team on it.",
+      "body": "Salon, spa, studio or group. You want the retention math, the customer care standards & a way to train the whole team on it.",
       "cta": "See the numbers"
     }
   ],
   "proof": [
     {
       "figure": "30%",
-      "label": "revenue growth over 2.5 years, Retro Redhead, London Ontario"
+      "label": "Revenue growth over 2.5 years, Retro Redhead, London Ontario"
     },
     {
       "figure": "10",
-      "label": "modules, quiz-gated, ends in certification"
+      "label": "Modules, quiz gated, ends in certification"
     },
     {
       "figure": "5",
-      "label": "tracks: hair, spa, RMT, tattoo, independent"
+      "label": "Tracks: hair, spa, RMT, tattoo, independent service providers"
     }
   ],
   "standardEyebrow": "What the standard actually is",
   "standardHeading": "Not a soft skills workshop. A floor protocol.",
-  "standardIntro": "Every rule in this framework exists because a nervous system does something predictable when it is startled, crowded or asked to perform. You are not learning to be nicer. You are learning to stop producing the signal that makes a guest shut down.",
+  "standardIntro": "Every rule in this framework exists because a nervous system does something predictable when it is startled, crowded or asked to perform. You are not learning to be nicer. You are learning to stop producing the signal that makes a guest shut down in your space.",
   "pillars": [
     {
       "title": "No performance required",
-      "body": "Guests are released from acting happy and making conversation while their brain is busy processing everything else in the room. Silence is a listed service, not an awkward gap."
+      "body": "Guests are released from the fake it till you make it conversation while their brain is busy processing everything else in the room. Silence is a listed service, not an awkward gap."
     },
     {
       "title": "Nothing happens without warning",
-      "body": "Every chair movement, every tool, every hand. Announced three seconds before it happens, in words we give you, so surprise never becomes startle."
+      "body": "Every chair movement, every tool, every hand. Announced before it happens, with scripts provided for you. Predictable service structure to ensure surprise never becomes startle."
     },
     {
       "title": "Recovery without apology",
@@ -51,7 +51,7 @@
     }
   ],
   "startEyebrow": "Where to start",
-  "startHeading": "Three ways in, and none of them start at the top.",
+  "startHeading": "Three ways in & none of them start at the top.",
   "startIntro": "Take the free audit first. If it tells you something you did not know about your own floor, the rest will too.",
   "paths": {
     "stylist": {
@@ -75,9 +75,9 @@
           "price": "$47",
           "priceNote": "one time",
           "title": "The Unmasked Diagnostic Kit",
-          "body": "The intake form that runs the whole system, already built. Copy it, rename it, use it Monday.",
+          "body": "The intake form that runs the whole damn system. Prebuilt template. Copy or Customize ready to implement the next day.",
           "bullets": [
-            "Five-section form with the branching logic wired",
+            "Five section form with the branching logic wired",
             "The Master Stylist Brief template",
             "Confirmation email script"
           ],
