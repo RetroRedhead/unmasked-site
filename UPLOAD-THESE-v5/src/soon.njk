@@ -1,0 +1,39 @@
+---
+layout: layout.njk
+bare: true
+pageTitle: "The Unmasked Standard | Opening soon"
+permalink: /index.html
+---
+<main class="soon">
+  <div class="soon-inner">
+    <div class="soon-volume">
+      <div class="volume-switch" role="group" aria-label="Sensory volume of this page">
+        <button type="button" data-vol="standard" aria-pressed="true">Standard</button>
+        <button type="button" data-vol="low" aria-pressed="false">Low</button>
+      </div>
+    </div>
+
+    <p class="soon-brand">{{ site.title }}<span>{{ site.tagline }}</span></p>
+
+    <p class="eyebrow">{{ soon.eyebrow }}</p>
+    <h1>{{ soon.heading }}</h1>
+    <p class="soon-body">{{ soon.body }}</p>
+    <p class="soon-promise">{{ soon.promise }}</p>
+
+    <form class="soon-form" id="soonform" action="{{ soon.captureAction }}" method="post">
+      <label class="visually-hidden" for="email">Your email address</label>
+      <input type="email" id="email" name="entry.2071831418" placeholder="you@yoursalon.com" autocomplete="email" required>
+      <button class="btn btn-primary" type="submit">{{ soon.captureButton }}</button>
+    </form>
+    <p class="soon-success" id="soonsuccess" hidden>{{ soon.successMessage }}</p>
+    <p class="fineprint">{{ soon.captureFineprint }}</p>
+
+    {% if soon.secondaryLabel %}
+    <p class="soon-secondary"><a href="{{ soon.secondaryUrl }}">{{ soon.secondaryLabel }}</a></p>
+    {% endif %}
+
+    <p class="soon-signoff">{{ soon.signoff }}</p>
+  </div>
+</main>
+
+<script src="/css/soon.js"></script>
