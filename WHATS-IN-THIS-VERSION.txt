@@ -1,5 +1,5 @@
 UNMASKED STANDARD WEBSITE
-Version 4  ·  16 September 2026  ·  "Coming soon lock"
+Version 5  ·  16 September 2026  ·  "Email box works"
 
 WHAT THIS VERSION DOES
   - Puts a coming-soon holding page at the front door
@@ -16,12 +16,15 @@ WHERE EVERYTHING LIVES ONCE UPLOADED
   unmaskedstandard.org/admin/    Where you edit everything
 
 STILL NOT DONE
-  - The email box has nowhere to send addresses yet.
-    Needs a Google Form URL or an email tool.
   - ThriveCart checkout links are all still "#"
   - The Sensory Leak Audit PDF does not exist yet
 
+SIGNUPS NOW GO TO
+  Google Form "THE UNMASKED STANDARD WAITLIST"
+  Open it in Google Forms and click Responses to see the list.
+
 VERSION HISTORY
+  v5  16 Sep  Email box wired to Google Form
   v4  16 Sep  Coming-soon lock, copy edits merged
   v3  16 Sep  Preview links in admin
   v2  16 Sep  Sensory Score quiz added
