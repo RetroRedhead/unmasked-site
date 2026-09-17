@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% if pageTitle %}{{ pageTitle }}{% else %}{{ site.title }} | Neuro-affirming training for the personal service industry{% endif %}</title>
+<meta name="description" content="{{ site.description }}">
+{% if noindex %}<meta name="robots" content="noindex,nofollow">{% endif %}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700;9..144,900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/main.css">
+<style>
+:root{
+{%- for k, v in brand.standard %}
+  --{{ k }}:{{ v }};
+{%- endfor %}
+  --cream:var(--background); --white:var(--surface); --off-white:var(--surface);
+  --sage:var(--cyan); --sage-dark:var(--teal); --sage-bg:color-mix(in srgb,var(--cyan) 18%,white);
+  --sage-light:color-mix(in srgb,var(--cyan) 9%,white);
+  --clay:var(--pinkDeep); --clay-dark:color-mix(in srgb,var(--pinkDeep) 82%,black);
+  --amber:var(--yellowDeep); --amber-bg:color-mix(in srgb,var(--yellow) 22%,white);
+  --plum:var(--pinkDeep); --plum-bg:color-mix(in srgb,var(--pink) 22%,white);
+  --rust:var(--red); --border-light:color-mix(in srgb,var(--border) 55%,white);
+  --charcoal:var(--ink); --muted-light:color-mix(in srgb,var(--muted) 65%,white);
+}
+[data-volume="low"]{
+{%- for k, v in brand.low %}
+  --{{ k }}:{{ v }};
+{%- endfor %}
+}
+</style>
+</head>
+<body data-volume="standard" data-path="stylist">
+
+{% if not bare %}
+<nav class="nav">
+  <div class="nav-in">
+    <a class="brand" href="#top">{{ site.title }}<span>{{ site.tagline }}</span></a>
+    <div class="nav-links">
+      <a href="#standard">The Standard</a>
+      <a href="#start">Training</a>
+      <a href="/quiz/">Sensory Score</a>
+      <a href="#directory">Directory</a>
+    </div>
+    <div class="volume">
+      <span class="volume-label">Sensory volume</span>
+      <div class="volume-switch" role="group" aria-label="Sensory volume of this page">
+        <button type="button" data-vol="standard" aria-pressed="true">Standard</button>
+        <button type="button" data-vol="low" aria-pressed="false">Low</button>
+      </div>
+    </div>
+  </div>
+</nav>
+{% endif %}
+
+{{ content | safe }}
+
+{% if not bare %}
+<footer id="directory">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a class="brand" href="#top">{{ site.title }}<span>{{ site.tagline }}</span></a>
+        <p style="color:var(--muted);font-size:.84rem;margin-top:.9rem;max-width:30ch">{{ site.footerLine }}</p>
+      </div>
+      <div>
+        <h4>Training</h4>
+        <ul>
+          <li><a href="#start">Full certification</a></li>
+          <li><a href="#start">Single modules</a></li>
+          <li><a href="#start">Team and bulk seats</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Free tools</h4>
+        <ul>
+          <li><a href="#audit">Sensory Leak Audit</a></li>
+          <li><a href="/quiz/">Sensory Score quiz</a></li>
+          <li><a href="#audit">Client expectations sheet</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>More</h4>
+        <ul>
+          <li><a href="#">Certified directory</a></li>
+          <li><a href="#">The proof</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>{{ site.copyright }}</span>
+      <span>{{ site.legalLine }}</span>
+    </div>
+  </div>
+</footer>
+{% endif %}
+
+<script src="/css/main.js"></script>
+</body>
+</html>
